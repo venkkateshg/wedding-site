@@ -47,9 +47,26 @@ All couple-specific content lives in **`src/config/wedding.config.json`**. Image
       ]
     }
   ],
-  "infoCards": [
-    { "icon": "dress", "title": "Dress Code", "body": "..." }
-  ],
+  "infoCards": {
+    "dressCode": { "enabled": true, "title": "Dress Code", "body": "..." },
+    "giftRegistry": {
+      "enabled": true,
+      "title": "Gift Registry",
+      "intro": "Your presence is the greatest gift...",
+      "items": [
+        { "label": "Amazon Registry", "url": "https://...", "note": "" },
+        { "label": "Bank Transfer", "url": "", "note": "Account details on request" }
+      ]
+    },
+    "travelStay": {
+      "enabled": true,
+      "title": "Travel & Stay",
+      "hotels": [
+        { "name": "Hotel ABC", "address": "...", "link": "https://...", "note": "10 min from venue" }
+      ]
+    },
+    "songDedications": { "enabled": true, "title": "Song Dedications", "body": "..." }
+  },
   "rsvp": {
     "deadlineText": "Kindly respond by 15th August 2026.",
     "googleForm": {
@@ -60,7 +77,7 @@ All couple-specific content lives in **`src/config/wedding.config.json`**. Image
   "footer": { "tagline": "Made with love ♥" }
 }
 ```
-`icon` in infoCards maps to a small fixed set of inline SVG icon components (dress/gift/travel/song/...) shipped in code — icons are visual assets, not content, so they stay code-side; adding a new icon type is a (rare) code change.
+`infoCards` is a fixed-key object (not an array) — one entry per card type (`dressCode`, `giftRegistry`, `travelStay`, `songDedications`). Each has an `enabled` flag; disabled cards are skipped entirely at render (no DOM, no grid gap). Icons per card type are a small fixed set of inline SVG components shipped in code — icons are visual assets, not content, so they stay code-side; adding a brand-new card type is a (rare) code change, but toggling/configuring existing ones is JSON-only.
 
 ## Component Breakdown
 - `App.jsx` — loads config, wraps everything in `ThemeProvider`
@@ -72,7 +89,7 @@ All couple-specific content lives in **`src/config/wedding.config.json`**. Image
 - `OurStory` — couple portrait image + dynamic chapters timeline (`config.story.chapters.map`)
 - `Couple` — bride card + groom card (now both have real photos, no placeholder state needed)
 - `Events` — dynamic `config.locations.map(location => location.events.map(...))`, generic card renderer, no hardcoded city names
-- `InfoCards` — dynamic grid from `config.infoCards`, icon lookup by key
+- `InfoCards` — grid renderer that iterates the 4 fixed card-type keys in `config.infoCards`, skips any with `enabled:false`, renders `DressCodeCard` (plain title+body) / `GiftRegistryCard` (intro + items list of label/url/note) / `TravelStayCard` (hotels list) / `SongDedicationsCard` (plain title+body) as small sub-components
 - `RsvpForm` — controlled form (name/email/attending/guests/dietary/song), client-side validation (name required, email format) matching prototype's `handleSubmit` logic, on valid submit: fire `fetch(actionUrl, {method:'POST', mode:'no-cors', body: URLSearchParams(mapped entryIds)})` then optimistically show success state regardless of response (Google Forms doesn't allow reading cross-origin response; no-cors fetch is fire-and-forget). Show success/thank-you panel exactly like prototype's `rsvpSubmitted` branch.
 - `Footer` — names, date/venue, tagline
 
