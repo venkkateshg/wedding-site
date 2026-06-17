@@ -50,6 +50,14 @@
       "name": "Chennai",
       "events": [
         {
+          "title": "Mehandi",
+          "date": "29th August",
+          "year": "2026",
+          "time": "4:00 PM onwards",
+          "venue": "Shirdi Shelters, Whitefield Mudra Phase 4, Chennai",
+          "mapUrl": "https://maps.app.goo.gl/HczfqfdQTW8VCzYh6"
+        },
+        {
           "title": "Reception",
           "date": "30th August",
           "year": "2026",
