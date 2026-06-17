@@ -8,6 +8,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
+      className="hero-section"
       style={{
         minHeight: '100vh',
         background: '#FBF5EE',
@@ -15,7 +16,6 @@ export default function Hero() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '130px 48px 88px',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -84,10 +84,9 @@ export default function Hero() {
 
       {/* Bride name */}
       <h1
-        className="animate-fadeUp"
+        className="animate-fadeUp hero-name"
         style={{
           fontFamily: "'Great Vibes', cursive",
-          fontSize: '104px',
           color: '#2C1A12',
           margin: 0,
           lineHeight: 1.1,
@@ -115,10 +114,9 @@ export default function Hero() {
 
       {/* Groom name */}
       <h1
-        className="animate-fadeUp"
+        className="animate-fadeUp hero-name"
         style={{
           fontFamily: "'Great Vibes', cursive",
-          fontSize: '104px',
           color: '#2C1A12',
           margin: 0,
           lineHeight: 1.1,
@@ -199,20 +197,18 @@ export default function Hero() {
         ].map(({ value, label, isSecs }) => (
           <div
             key={label}
+            className="countdown-card"
             style={{
               background: '#F5EDE3',
               border: '1px solid #EAD8C8',
               borderRadius: '10px',
-              padding: '16px 22px',
-              minWidth: '78px',
               textAlign: 'center',
             }}
           >
             <div
-              className={isSecs ? 'animate-secTick' : undefined}
+              className={`countdown-num${isSecs ? ' animate-secTick' : ''}`}
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
-                fontSize: '40px',
                 color: '#2C1A12',
                 lineHeight: 1,
               }}

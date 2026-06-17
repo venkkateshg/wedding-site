@@ -45,3 +45,22 @@ input, select, textarea {
 
 a { text-decoration: none; }
 button { cursor: pointer; }
+
+/* ── Responsive helpers ── */
+.hero-section { padding: 130px 48px 88px; }
+.hero-name    { font-size: 104px; }
+.section-pad  { padding: 108px 52px; }
+.footer-root  { padding: 72px 52px; }
+.footer-name  { font-size: 72px; }
+.countdown-card { padding: 16px 22px; min-width: 78px; }
+.countdown-num  { font-size: 40px; }
+
+@media (max-width: 640px) {
+  .hero-section { padding: 110px 24px 72px; }
+  .hero-name    { font-size: 62px; }
+  .section-pad  { padding: 72px 20px; }
+  .footer-root  { padding: 56px 24px; }
+  .footer-name  { font-size: 48px; }
+  .countdown-card { padding: 12px 14px; min-width: 60px; }
+  .countdown-num  { font-size: 30px; }
+}

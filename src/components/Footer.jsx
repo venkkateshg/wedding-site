@@ -4,8 +4,8 @@ export default function Footer() {
   const { couple, wedding, footer } = useConfig()
 
   return (
-    <footer style={{ background: '#2C1A12', padding: '72px 52px', textAlign: 'center' }}>
-      <h2 style={{ fontFamily: 'var(--font-display)', color: '#F5E6C8', fontSize: '72px', lineHeight: 1, marginBottom: '16px' }}>
+    <footer className="footer-root" style={{ background: '#2C1A12', textAlign: 'center' }}>
+      <h2 className="footer-name" style={{ fontFamily: 'var(--font-display)', color: '#F5E6C8', lineHeight: 1, marginBottom: '16px' }}>
         {couple.brideNickname} &amp; {couple.groomNickname}
       </h2>
       <p style={{ fontFamily: 'var(--font-sans)', color: '#7a5a4a', fontSize: '11px', letterSpacing: '3.5px', textTransform: 'uppercase', marginBottom: '36px' }}>
