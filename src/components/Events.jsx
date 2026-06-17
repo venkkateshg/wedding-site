@@ -42,7 +42,7 @@ export default function Events() {
   const { locations } = useConfig()
 
   return (
-    <section id="events" style={{ background: '#FAF0E8', padding: '108px 52px' }}>
+    <section id="events" className="section-pad" style={{ background: '#FAF0E8' }}>
       <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '14px' }}>
           <div style={{ height: '1px', width: '44px', background: '#E0C8B8' }} />

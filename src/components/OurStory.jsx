@@ -5,7 +5,7 @@ export default function OurStory() {
   const { couple, story } = useConfig()
 
   return (
-    <section id="story" style={{ background: '#FAF8F4', padding: '108px 52px' }}>
+    <section id="story" className="section-pad" style={{ background: '#FAF8F4' }}>
       <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
 
         {/* Section header */}

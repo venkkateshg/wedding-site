@@ -10,7 +10,7 @@ export default function Nav() {
 
   const navStyle = {
     position: 'fixed', top: 0, left: 0, right: 0, zIndex: 200,
-    padding: '20px 52px', display: 'flex', alignItems: 'center',
+    padding: '16px 24px', display: 'flex', alignItems: 'center',
     justifyContent: 'space-between',
     transition: 'background 0.4s, box-shadow 0.4s',
     background: scrolled ? 'rgba(251,245,238,0.97)' : 'transparent',
@@ -30,7 +30,7 @@ export default function Nav() {
       </a>
 
       {/* Desktop links */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }} className="hidden md:flex">
+      <div style={{ alignItems: 'center', gap: '32px' }} className="hidden md:flex">
         {links.map(l => (
           <a key={l.href} href={l.href} style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: '#8B6355', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 500 }}>
             {l.label}

@@ -43,7 +43,7 @@ export default function Couple() {
   }
 
   return (
-    <section id="couple" style={{ background: '#FBF5EE', padding: '108px 52px' }}>
+    <section id="couple" className="section-pad" style={{ background: '#FBF5EE' }}>
       <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '14px' }}>
           <div style={{ height: '1px', width: '44px', background: '#EAD8C8' }} />
