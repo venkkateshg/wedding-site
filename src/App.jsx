@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import OurStory from './components/OurStory'
 import Couple from './components/Couple'
 import Events from './components/Events'
+import InfoCards from './components/InfoCards'
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
           <OurStory />
           <Couple />
           <Events />
-          <section id="info" style={{ minHeight: '50vh' }} />
+          <InfoCards />
           <section id="rsvp" style={{ minHeight: '50vh' }} />
         </Layout>
       </ThemeProvider>
