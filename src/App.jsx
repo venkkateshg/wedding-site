@@ -7,6 +7,7 @@ import OurStory from './components/OurStory'
 import Couple from './components/Couple'
 import Events from './components/Events'
 import InfoCards from './components/InfoCards'
+import RsvpForm from './components/RsvpForm'
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
           <Couple />
           <Events />
           <InfoCards />
-          <section id="rsvp" style={{ minHeight: '50vh' }} />
+          <RsvpForm />
         </Layout>
       </ThemeProvider>
     </ConfigProvider>
