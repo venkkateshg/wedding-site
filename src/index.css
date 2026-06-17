@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-fadeUp {
+    animation: fadeUp 0.9s ease both;
+  }
+  .animate-secTick {
+    animation: secTick 1s infinite;
+  }
+  .animate-bounce-scroll {
+    animation: bounce 2s ease-in-out infinite;
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes secTick {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  55% { transform: translateY(7px); }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+::placeholder {
+  color: #D4C0B0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+}
+
+input, select, textarea {
+  outline: none;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a { text-decoration: none; }
+button { cursor: pointer; }
