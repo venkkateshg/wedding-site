@@ -5,6 +5,7 @@ import Layout from './components/Layout'
 import Hero from './components/Hero'
 import OurStory from './components/OurStory'
 import Couple from './components/Couple'
+import Events from './components/Events'
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
           <Hero />
           <OurStory />
           <Couple />
-          <section id="events" style={{ minHeight: '50vh' }} />
+          <Events />
           <section id="info" style={{ minHeight: '50vh' }} />
           <section id="rsvp" style={{ minHeight: '50vh' }} />
         </Layout>
