@@ -1,0 +1,128 @@
+{
+  "couple": {
+    "brideName": "Noodhana",
+    "brideNickname": "Noona",
+    "groomName": "Venkkatesh",
+    "groomNickname": "Venkkat",
+    "brideBio": "Add a few lines about Noodhana here — her passions, her spirit, what makes her so wonderfully her. This is her moment to shine.",
+    "groomBio": "Add a few lines about Venkkatesh here — his warmth, his humor, everything that makes him the perfect partner for this adventure called life.",
+    "brideImageKey": "bride",
+    "groomImageKey": "groom",
+    "coupleImageKey": "couple"
+  },
+  "wedding": {
+    "dateTimeUtc": "2026-08-31T00:30:00Z",
+    "displayDate": "31st August · 2026",
+    "primaryVenue": "Sree Kailash Mahal · Chennai"
+  },
+  "theme": {
+    "colorBg": "#FBF5EE",
+    "colorAccent": "#C4787E",
+    "colorText": "#2C1A12",
+    "colorMuted": "#8B6355",
+    "colorBorder": "#EAD8C8",
+    "fontDisplay": "'Great Vibes', cursive",
+    "fontSerif": "'Cormorant Garamond', serif",
+    "fontSans": "'DM Sans', sans-serif"
+  },
+  "story": {
+    "heading": "How it began",
+    "chapters": [
+      {
+        "label": "Chapter One",
+        "title": "The Beginning",
+        "body": "Every great love story starts with a moment that changes everything. For Noona and Venkkat, it was one of those rare encounters that felt both unexpected and inevitable — the kind you look back on and smile."
+      },
+      {
+        "label": "Chapter Two",
+        "title": "Growing Together",
+        "body": "Through shared laughs, late-night conversations and quiet Sunday mornings, they discovered in each other a kindness and warmth that made everything feel right. Two hearts, one journey."
+      },
+      {
+        "label": "Chapter Three",
+        "title": "Forever Begins",
+        "body": "Now, with family and friends gathered in Chennai and Madurai, they take the most beautiful step of all — into a lifetime of love, laughter and everything in between."
+      }
+    ]
+  },
+  "locations": [
+    {
+      "name": "Chennai",
+      "events": [
+        {
+          "title": "Reception",
+          "date": "30th August",
+          "year": "2026",
+          "time": "6:00 PM onwards",
+          "venue": "Sree Kailash Mahal, Chennai",
+          "mapUrl": "https://maps.app.goo.gl/PWK7ukfastfsZY3e9"
+        },
+        {
+          "title": "Wedding Ceremony",
+          "date": "31st August",
+          "year": "2026",
+          "time": "6:00 AM – 7:30 AM",
+          "venue": "Sree Kailash Mahal, Chennai",
+          "mapUrl": "https://maps.app.goo.gl/PWK7ukfastfsZY3e9"
+        }
+      ]
+    },
+    {
+      "name": "Madurai",
+      "events": [
+        {
+          "title": "Reception",
+          "date": "5th September",
+          "year": "2026",
+          "time": "6:00 PM onwards",
+          "venue": "M S Mahal, Madurai",
+          "mapUrl": "https://maps.app.goo.gl/BqoEseq3W9h7xdnH6"
+        }
+      ]
+    }
+  ],
+  "infoCards": {
+    "dressCode": {
+      "enabled": true,
+      "title": "Dress Code",
+      "body": "Traditional & Festive. Think silk sarees, kurtas, sherwanis. Celebrate in colour and elegance — the more festive, the better!"
+    },
+    "giftRegistry": {
+      "enabled": true,
+      "title": "Gift Registry",
+      "intro": "Your presence is the greatest gift. If you'd like to bless the couple, here are a few ways to do so.",
+      "items": [
+        { "label": "Bank Transfer", "url": "", "note": "Account details on request" }
+      ]
+    },
+    "travelStay": {
+      "enabled": true,
+      "title": "Travel & Stay",
+      "hotels": [
+        { "name": "Hotel Suggestion", "address": "Chennai", "link": "", "note": "More details to follow" }
+      ]
+    },
+    "songDedications": {
+      "enabled": true,
+      "title": "Song Dedications",
+      "body": "Help curate the perfect playlist! Dedicate a song in the RSVP form below — we'd love to celebrate with songs that mean something to you."
+    }
+  },
+  "rsvp": {
+    "deadlineText": "Kindly respond by 15th August 2026.",
+    "googleForm": {
+      "actionUrl": "",
+      "entryIds": {
+        "name": "entry.111",
+        "email": "entry.222",
+        "attending": "entry.333",
+        "guests": "entry.444",
+        "dietary": "entry.555",
+        "song": "entry.666"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Made with love ♥"
+  }
+}
