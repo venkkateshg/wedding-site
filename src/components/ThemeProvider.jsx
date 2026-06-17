@@ -18,5 +18,5 @@ export default function ThemeProvider({ children }) {
     document.body.style.color = theme.colorText
   }, [theme])
 
-  return children
+  return <>{children}</>
 }

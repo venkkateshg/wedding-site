@@ -7,3 +7,8 @@ dist/
 .DS_Store
 Thumbs.db
 .vite/
+.md
+.claude/
+docs/
+Prototype/
+

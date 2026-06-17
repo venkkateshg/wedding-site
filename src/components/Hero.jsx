@@ -94,7 +94,7 @@ export default function Hero() {
           animationDelay: '0.1s',
         }}
       >
-        {config.couple.bride}
+        {config.couple.brideName}
       </h1>
 
       {/* Ampersand */}
@@ -126,7 +126,7 @@ export default function Hero() {
           animationDelay: '0.22s',
         }}
       >
-        {config.couple.groom}
+        {config.couple.groomName}
       </h1>
 
       {/* Ornamental divider */}
@@ -178,7 +178,7 @@ export default function Hero() {
           animationDelay: '0.38s',
         }}
       >
-        {config.wedding.venue.primary}
+        {config.wedding.primaryVenue}
       </p>
 
       {/* Countdown grid */}

@@ -21,7 +21,6 @@ export default function Nav() {
     { href: '#story', label: 'Our Story' },
     { href: '#couple', label: 'The Couple' },
     { href: '#events', label: 'Events' },
-    { href: '#info', label: 'Info' },
   ]
 
   return (
@@ -37,9 +36,6 @@ export default function Nav() {
             {l.label}
           </a>
         ))}
-        <a href="#rsvp" style={{ fontFamily: 'var(--font-sans)', fontSize: '11px', color: '#fff', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 500, background: '#C4787E', padding: '10px 24px', borderRadius: '24px' }}>
-          RSVP
-        </a>
       </div>
 
       {/* Mobile hamburger */}
@@ -65,10 +61,6 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a href="#rsvp" onClick={() => setMenuOpen(false)}
-            style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', color: '#fff', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 500, background: '#C4787E', padding: '10px 24px', borderRadius: '24px', textAlign: 'center' }}>
-            RSVP
-          </a>
         </div>
       )}
     </nav>

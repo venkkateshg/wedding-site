@@ -4,14 +4,14 @@
     "brideNickname": "Noona",
     "groomName": "Venkkatesh",
     "groomNickname": "Venkkat",
-    "brideBio": "Add a few lines about Noodhana here — her passions, her spirit, what makes her so wonderfully her. This is her moment to shine.",
-    "groomBio": "Add a few lines about Venkkatesh here — his warmth, his humor, everything that makes him the perfect partner for this adventure called life.",
+    "brideBio": "Meet Noodhana — a woman who is impossible to put in a box, and honestly, why would you try? A software professional by day, she brings the same energy to everything she does: vibrant, unpredictable, and delightfully weird in the best possible way. If you've just met her, you might mistake her quietness for shyness — but ask anyone who knows her, and they'll tell you she's secretly the loudest person in the room. Once she lets you in, there's no going back. Noodhana is the kind of person who makes ordinary moments feel like an adventure — and Venkkatesh is very lucky to be along for the ride.",
+    "groomBio": "Don't let the first impression fool you — Venkkatesh has one of those faces that says \"I mean business,\" but the moment he opens his mouth, you'll be laughing before you know what hit you. A software professional with an easy charm, he has a rare gift: the ability to make everyone around him feel instantly at ease. His friends don't just like him — they adore him, because the version of Venkkatesh they know is warm, funny, and completely effortless to be around. He may have spotted Noodhana first on that fateful beach, but something tells us she's been keeping up just fine ever since.",
     "brideImageKey": "bride",
     "groomImageKey": "groom",
     "coupleImageKey": "couple"
   },
   "wedding": {
-    "dateTimeUtc": "2026-08-31T00:30:00Z",
+    "dateTimeUtc": "2026-08-31T06:00:00Z",
     "displayDate": "31st August · 2026",
     "primaryVenue": "Sree Kailash Mahal · Chennai"
   },
@@ -30,18 +30,18 @@
     "chapters": [
       {
         "label": "Chapter One",
-        "title": "The Beginning",
-        "body": "Every great love story starts with a moment that changes everything. For Noona and Venkkat, it was one of those rare encounters that felt both unexpected and inevitable — the kind you look back on and smile."
+        "title": "Train, Beach & the Stars",
+        "body": "It started on a train to Goa. A company offsite, unremarkable by all accounts — until Venkkatesh spotted Noodhana zipping through the coaches, ticking off names, making sure every teammate was accounted for. He didn't know it then, but he was already a goner. Later that trip, they found themselves on a date at the beach — and as the conversation unfolded, so did something remarkable: the same hobbies, the same wavelength, the same quiet wonder at the world. As the night deepened, they lay back and stargazed on an empty beach. No crowds, no noise — just the two of them, the sky, and a feeling that something had quietly, beautifully begun."
       },
       {
         "label": "Chapter Two",
-        "title": "Growing Together",
-        "body": "Through shared laughs, late-night conversations and quiet Sunday mornings, they discovered in each other a kindness and warmth that made everything feel right. Two hearts, one journey."
+        "title": "No Proposal Needed",
+        "body": "Some couples need months to figure it out. Noodhana and Venkkatesh needed one date. After that night on the beach, there was no dramatic proposal, no grand gesture — just a quiet, unspoken certainty that this was it. The distance that followed could have been a test, but instead it became the foundation. Long calls, shared laughter, late-night conversations that stretched into the early hours — they learned each other in the unhurried way that only distance allows. And through it all, Noodhana knew she had someone who could pull her out of any storm. Not someday. Instantly."
       },
       {
         "label": "Chapter Three",
-        "title": "Forever Begins",
-        "body": "Now, with family and friends gathered in Chennai and Madurai, they take the most beautiful step of all — into a lifetime of love, laughter and everything in between."
+        "title": "Forever, Starting in Chennai",
+        "body": "From a train carriage in Goa to a lifetime together in Chennai — what a journey it has been. Now, surrounded by the people who love them most, Noodhana and Venkkatesh take the step they always knew was coming. No nervousness, no second-guessing — just two people who chose each other early and never looked back. Today, the celebration begins. And it's only the first page of everything that comes next."
       }
     ]
   },
@@ -55,7 +55,7 @@
           "year": "2026",
           "time": "6:00 PM onwards",
           "venue": "Sree Kailash Mahal, Chennai",
-          "mapUrl": "https://maps.app.goo.gl/PWK7ukfastfsZY3e9"
+          "mapUrl": "https://maps.app.goo.gl/fNuf7ojpWehrEW9G9"
         },
         {
           "title": "Wedding Ceremony",
@@ -63,7 +63,7 @@
           "year": "2026",
           "time": "6:00 AM – 7:30 AM",
           "venue": "Sree Kailash Mahal, Chennai",
-          "mapUrl": "https://maps.app.goo.gl/PWK7ukfastfsZY3e9"
+          "mapUrl": "https://maps.app.goo.gl/fNuf7ojpWehrEW9G9"
         }
       ]
     },
@@ -111,7 +111,7 @@
   "rsvp": {
     "deadlineText": "Kindly respond by 15th August 2026.",
     "googleForm": {
-      "actionUrl": "",
+      "actionUrl": "https://forms.gle/bwV3k6ayEapduw2a8",
       "entryIds": {
         "name": "entry.111",
         "email": "entry.222",

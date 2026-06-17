@@ -1,6 +1,6 @@
 import brideImg from '../Assets/Bride Picture.jpeg'
-import groomImg from '../Assets/Groom Picture.jpeg'
-import coupleImg from '../Assets/Couple Picture Portrait.jpeg'
+import groomImg from '../Assets/Groom.jpeg'
+import coupleImg from '../Assets/Couple Picture.jpeg'
 
 const assets = {
   bride: brideImg,

@@ -6,8 +6,6 @@ import Hero from './components/Hero'
 import OurStory from './components/OurStory'
 import Couple from './components/Couple'
 import Events from './components/Events'
-import InfoCards from './components/InfoCards'
-import RsvpForm from './components/RsvpForm'
 
 export default function App() {
   return (
@@ -18,8 +16,6 @@ export default function App() {
           <OurStory />
           <Couple />
           <Events />
-          <InfoCards />
-          <RsvpForm />
         </Layout>
       </ThemeProvider>
     </ConfigProvider>
