@@ -62,10 +62,13 @@ export default function Couple() {
             bio={couple.brideBio}
           />
 
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '120px 12px 0' }}>
+          <div className="couple-divider-desktop" style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '120px 12px 0' }}>
             <div style={{ height: '80px', width: '1px', background: '#EAD8C8' }} />
             <p style={{ fontFamily: 'var(--font-serif)', color: '#C4787E', fontSize: '36px', fontWeight: 300, margin: '14px 0' }}>&amp;</p>
             <div style={{ height: '80px', width: '1px', background: '#EAD8C8' }} />
+          </div>
+          <div className="couple-divider-mobile" style={{ width: '100%', textAlign: 'center', padding: '8px 0' }}>
+            <p style={{ fontFamily: 'var(--font-serif)', color: '#C4787E', fontSize: '36px', fontWeight: 300, margin: 0 }}>&amp;</p>
           </div>
 
           <PersonCard
