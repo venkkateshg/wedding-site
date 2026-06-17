@@ -55,7 +55,12 @@ button { cursor: pointer; }
 .countdown-card { padding: 16px 22px; min-width: 78px; }
 .countdown-num  { font-size: 40px; }
 
+.couple-divider-mobile  { display: none; }
+.couple-divider-desktop { display: flex !important; }
+
 @media (max-width: 640px) {
+  .couple-divider-desktop { display: none !important; }
+  .couple-divider-mobile  { display: block; }
   .hero-section { padding: 110px 24px 72px; }
   .hero-name    { font-size: 62px; }
   .section-pad  { padding: 72px 20px; }
