@@ -53,7 +53,7 @@ export default function Couple() {
           Meet the lovebirds
         </h2>
 
-        <div style={{ display: 'flex', gap: '40px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: '40px', alignItems: 'flex-start', flexWrap: 'wrap', justifyContent: 'center' }}>
           <PersonCard
             imageKey={couple.brideImageKey}
             role="The Bride"

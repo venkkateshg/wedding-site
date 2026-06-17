@@ -18,7 +18,7 @@ export default function OurStory() {
         </h2>
 
         {/* Two-column */}
-        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '72px', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '72px', flexWrap: 'wrap', justifyContent: 'center' }}>
 
           {/* Photo */}
           <div style={{ flexShrink: 0 }}>

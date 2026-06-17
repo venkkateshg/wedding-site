@@ -48,9 +48,12 @@ export default function Events() {
           <div style={{ height: '1px', width: '44px', background: '#E0C8B8' }} />
           <p style={{ fontFamily: 'var(--font-sans)', color: '#C4787E', fontSize: '11px', letterSpacing: '5px', textTransform: 'uppercase', fontWeight: 500 }}>Celebrations</p>
         </div>
-        <h2 style={{ fontFamily: 'var(--font-serif)', color: '#2C1A12', fontSize: '54px', fontWeight: 400, fontStyle: 'italic', marginBottom: '64px', lineHeight: 1.1 }}>
+        <h2 style={{ fontFamily: 'var(--font-serif)', color: '#2C1A12', fontSize: '54px', fontWeight: 400, fontStyle: 'italic', marginBottom: '20px', lineHeight: 1.1 }}>
           Schedule of events
         </h2>
+        <p style={{ fontFamily: 'var(--font-sans)', color: '#8B6355', fontSize: '15px', fontWeight: 300, lineHeight: 1.8, marginBottom: '64px', maxWidth: '600px' }}>
+          We would be overjoyed to have you celebrate with us. Mark your calendars and join us for an evening of love, laughter, and togetherness — your presence is what makes it truly special.
+        </p>
 
         {locations.map((location, li) => (
           <div key={li} style={{ marginBottom: li < locations.length - 1 ? '52px' : 0 }}>
